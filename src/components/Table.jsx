@@ -11,7 +11,7 @@ const Table = ({coins}) => {
           <th scope="col">Price</th>
           <th scope="col">Market cap</th>
           <th scope="col">24h</th>
-          <th scope="col">market_cap_rank</th>
+          <th scope="col">Market Cap Rank</th>
         </tr>
       </thead>
       <tbody>

@@ -25,7 +25,7 @@ const Landing = () => {
 
   return (
     <>
-         <input value={search} onChange={changeHandler} className="w-100 mb-3" type="text" placeholder="Search coin" id="" />
+         <input  value={search} onChange={changeHandler} className="w-100 mb-3 mt-3 form-control" type="text" placeholder="Search coin" id="" />
          {
           coins.length  ? 
           <Table coins={filterCoins}/> :
